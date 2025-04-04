@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/ProjectFrontend/CSS/login.css">
+    <link rel="stylesheet" href="/ProjectFrontend/Assets/font/Montserrat.css">
+    <link rel="stylesheet" href="/ProjectFrontend/CSS/styleForAll.css">
+</head>
+<body>
+    <div class="container">
+      <div class="intro">
+        <h1>Đăng nhập</h1>
+        <p>QuizForge - Nền tảng sáng tạo bài kiểm tra trực tuyến, giúp bạn dễ dàng thiết kế, chia sẻ và thực hiện các bài kiểm tra một cách nhanh chóng và hiệu quả! </p>
+      </div>
+      <form id="form">
+        <label>Email</label>
+        <input id="inputEmail" placeholder="Email address" type="email"></input><br><br>
+        <span id="emailError"></span>
+        <label class="passLabel">Password</label>
+        <input name="password" id="inputPass" placeholder="Password"></input><br><br>
+        <span id="passError"></span>
+        <button id="login">login</button>
+        <p>Don't have an account yet? <a href="/ProjectFrontend/HTML/register.html" id="register">Register</a></p>
+      </form>
+    </div>
+    <script src="../JS/login.js"></script>
+</body>
+</html>

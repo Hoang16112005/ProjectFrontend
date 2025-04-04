@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/ProjectFrontend/CSS/home.css">
+    <link rel="stylesheet" href="/ProjectFrontend/Assets/font/Roboto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/ProjectFrontend/Assets/font/Inter.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="menu">
+                <div class="logo">QuizzForge</div>
+                <input id="testSearch" placeholder="Find test">
+                <div class="navbar">
+                    <a href="/ProjectFrontend/HTML/home.html" class="home">Home</a>
+                    <a href="/ProjectFrontend/HTML/login.html" class="logout">Log out</a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="randomQues">
+                <p>Try a random question <i class="fa-solid fa-dice"></i></p>
+                <button id="playRandom">Play</button>
+            </div>
+            <div class="test-container">
+                <h3><i class="fa-solid fa-flask"></i> Featured quizzes</h3>
+                <p class="Sort">Sort by <button id="increase">Gradually increase</button> <button id="decrease">Gradually decrease</button></p> 
+                <div class="test-option">
+                    <div class="test">
+                        <img src="/ProjectFrontend/Assets/img/Science.jpg">
+                        <div class="test-content">
+                            <p id="topic"><i class="fa-solid fa-atom"></i> Science</p>
+                            <h4>Challenge your knowledge</h4>
+                            <p>15 questions - 2 plays</p>
+                        </div>
+                        <button id="realTest">Play</button>
+                    </div class="test">
+                    <div class="test">
+                        <img src="/ProjectFrontend/Assets/img/time.jpg">
+                        <div class="test-content">
+                            <p id="topic"><i class="fa-solid fa-clock"></i> Time</p>
+                            <h4>Challenge your knowledge</h4>
+                            <p>15 questions - 2 plays</p>
+                        </div>
+                        <button id="realTest">Play</button>
+                    </div>
+                    <div class="test">
+                        <img src="/ProjectFrontend/Assets/img/cat.jpg">
+                        <div class="test-content">
+                            <p id="topic"><i class="fa-solid fa-otter"></i> Animals</p>
+                            <h4>Challenge your knowledge</h4>
+                            <p>15 questions - 2 plays</p>
+                        </div>
+                        <button id="realTest">Play</button>
+                    </div>
+                    <div class="test">
+                        <img src="/ProjectFrontend/Assets/img/math.jpg">
+                        <div class="test-content">
+                            <p id="topic"><i class="fa-solid fa-calculator"></i> Math</p>
+                            <h4>Challenge your knowledge</h4>
+                            <p>15 questions - 2 plays</p>
+                        </div>
+                        <button id="realTest">Play</button>
+                    </div>
+                    <div class="test">
+                        <img src="/ProjectFrontend/Assets/img/gym.jpg">
+                        <div class="test-content">
+                            <p id="topic"><i class="fa-solid fa-dumbbell"></i> Health and Fitness</p>
+                            <h4>Challenge your knowledge</h4>
+                            <p>15 questions - 2 plays</p>
+                        </div>
+                        <button id="realTest">Play</button>
+                    </div>
+                    <div class="test">
+                        <img src="/ProjectFrontend/Assets/img/sport.jpg">
+                        <div class="test-content">
+                            <p id="topic"><i class="fa-solid fa-baseball-bat-ball"></i> Sport</p>
+                            <h4>Challenge your knowledge</h4>
+                            <p>15 questions - 2 plays</p>
+                        </div>
+                        <button id="realTest">Play</button>
+                    </div>
+                    <div class="test">
+                        <img src="/ProjectFrontend/Assets/img/game.jpg">
+                        <div class="test-content">
+                            <p id="topic"><i class="fa-solid fa-gamepad"></i> Game</p>
+                            <h4>Challenge your knowledge</h4>
+                            <p>15 questions - 2 plays</p>
+                        </div>
+                        <button id="realTest">Play</button>
+                    </div>
+                    <div class="test">
+                        <img src="/ProjectFrontend/Assets/img/geography.jpg">
+                        <div class="test-content">
+                            <p id="topic"><i class="fa-solid fa-book-atlas"></i> Geography</p>
+                            <h4>Challenge your knowledge</h4>
+                            <p>15 questions - 2 plays</p>
+                        </div>
+                        <button id="realTest">Play</button>
+                    </div>
+                </div>
+                <ul class="pagination">
+                    <li id="disabled"><a href="#"><</a></li>
+                    <li id="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#" id="next">></a></li>
+                </ul>
+        </nav>
+        <footer>
+            <p>© 2025 Quiz App. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
